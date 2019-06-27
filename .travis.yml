@@ -5,6 +5,7 @@ services:
 before_install:
   - docker build -t kos/docker-react -f Dockerfile.dev .
 
+language: generic
 deploy:
   provider: elasticbeanstalk
   region: "eu-central-1"
