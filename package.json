@@ -1,6 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
+  "ci_test": "CI=true react-scripts test",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
